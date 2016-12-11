@@ -26,5 +26,12 @@ namespace RPNCalculator
             Assert.AreEqual(4 + 5, calc.Apply(4, 5, "+"));
 
         }
+
+        [Test]
+        public void TestAdd1()
+        {
+            Assert.AreEqual(4 + 5, calc.Apply(14, 5, "+"));
+
+        }
     }
 }
